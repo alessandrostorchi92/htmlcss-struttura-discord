@@ -70,10 +70,81 @@ footer {
     padding-bottom: 25px;
 }
 
-.abovethefold-container {
+.abovethefold-box {
     max-width: 620px;
     width: 100%;
     margin: auto;
     background-color: #EF82EE;
-    height: 250px
+    height: 250px;
+    border: 1px dashed black;
+}
+
+.section1-container {
+    background-color: white;
+    min-height: 400px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.section1-box {
+    display: flex;
+    margin: auto;
+    max-width: 840px;
+    width: 100%;
+    height: 300px;
+    border: 1px dashed black;
+}
+
+.section1-box-lightblue {
+    flex-grow: 2;
+    background-color: #1E90FF;
+    border: 1px dashed black;
+}
+
+.section1-box-pink {
+    flex-grow: 1;
+    background-color: #FFC0CB;
+}
+
+.section2-container {
+    background-color: #D3D3D3;
+    min-height: 400px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.section2-box {
+    display: flex;
+    margin: auto;
+    max-width: 840px;
+    width: 100%;
+    height: 300px;
+    border: 1px dashed black;
+}
+
+.section2-box-lightblue {
+    flex-grow: 1;
+    background-color: #FFC0CB;  
+}
+
+.section2-box-pink {
+    flex-grow: 2;
+    background-color: #1E90FF;
+    border: 1px dashed black;
+}
+
+.section4-container {
+    background-color: #D3D3D3;
+    min-height: 650px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.section4-box {
+    background-color: #228B21;
+    margin: auto;
+    max-width: 840px;
+    width: 100%;
+    height: 600px;
+    border: 1px dashed black;
 }
