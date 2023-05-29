@@ -12,6 +12,8 @@ header {
 nav {
     min-height: 100px;
     background-color: #ADD8E6;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 main {
@@ -31,7 +33,40 @@ footer {
     margin: auto;
     background-color: #DBA520;
     height: 60px;
-    padding-bottom: 20px;
-    padding-top: 20px;
     
+}
+
+.menu-logo {
+    width: 200px;
+    background-color: #DBA520;
+    line-height: 60px;
+    border: 1px dashed black;
+    padding-left: 10px;
+    border-right: 2px dashed black;
+}
+
+.menu-link {
+    flex-grow: 1;
+    background-color: #DBA520;
+    line-height: 60px;
+    border: 1px dashed black;
+    padding-left: 10px;
+    border-right: 2px dashed black;
+}
+
+.testo-link {
+    display: inline-block;
+    text-align: center;
+}
+
+.menu-login {
+    width: 200px;
+    background-color: #DBA520;
+    line-height: 60px;
+    border: 1px dashed black;
+    padding-left: 10px;
+}
+
+.testo-login {
+    text-align: right;
 }
