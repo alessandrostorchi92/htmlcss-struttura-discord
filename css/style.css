@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    min-height: 400px;
+    background-color: #08008B;
+}
+
+nav {
+    min-height: 100px;
+    background-color: #ADD8E6;
+}
+
+main {
+    min-height: 1000px;
+    background-color: aqua;
+}
+
+footer {
+    min-height: 400px;
+    background-color: #23272A;
+}
+
+.nav-container {
+    display: flex;
+    max-width: 980px;
+    width: 100%;
+    margin: auto;
+    background-color: #DBA520;
+    height: 60px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    
+}
