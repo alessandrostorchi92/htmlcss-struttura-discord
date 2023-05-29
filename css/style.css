@@ -32,8 +32,7 @@ footer {
     width: 100%;
     margin: auto;
     background-color: #DBA520;
-    height: 60px;
-    
+    height: 60px;   
 }
 
 .menu-logo {
@@ -52,10 +51,6 @@ footer {
     border: 1px dashed black;
     padding-left: 10px;
     border-right: 2px dashed black;
-}
-
-.testo-link {
-    display: inline-block;
     text-align: center;
 }
 
@@ -64,9 +59,21 @@ footer {
     background-color: #DBA520;
     line-height: 60px;
     border: 1px dashed black;
-    padding-left: 10px;
+    padding-right: 10px;
+    text-align: right;
 }
 
-.testo-login {
-    text-align: right;
+.header-container {
+    background-color: #08008B;
+    min-height: 300px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.abovethefold-container {
+    max-width: 620px;
+    width: 100%;
+    margin: auto;
+    background-color: #EF82EE;
+    height: 250px
 }
