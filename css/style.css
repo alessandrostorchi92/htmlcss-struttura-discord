@@ -173,7 +173,7 @@ footer {
 .smallrectangle-box {
     flex-grow: 1;
     background-color: #20ACA4;
-    border: 1px dashed black;
+    border: 1px dashed white;
 }
 
 .footer-box {
