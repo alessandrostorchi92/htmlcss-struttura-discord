@@ -37,7 +37,6 @@ footer {
 
 .menu-logo {
     width: 200px;
-    background-color: #DBA520;
     line-height: 60px;
     border: 1px dashed black;
     padding-left: 10px;
@@ -46,21 +45,27 @@ footer {
 
 .menu-link {
     flex-grow: 1;
-    background-color: #DBA520;
     line-height: 60px;
     border: 1px dashed black;
     padding-left: 10px;
     border-right: 2px dashed black;
     text-align: center;
+    border-left: none;
+}
+
+.testo-link {
+    list-style: none;
+    text-decoration: none;
+    color: black;
 }
 
 .menu-login {
     width: 200px;
-    background-color: #DBA520;
     line-height: 60px;
     border: 1px dashed black;
     padding-right: 10px;
     text-align: right;
+    border-left: none;
 }
 
 .header-container {
